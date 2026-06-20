@@ -129,11 +129,19 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 3.5rem;
-    color: #ff69b4; /* Hot pink */
+    font-size: 5rem;
+    color: #ffffff;
     margin-bottom: 15px;
-    font-weight: 700;
-    text-shadow: 2px 2px 0px #ffe4e1, 4px 4px 0px rgba(0,0,0,0.05);
+    font-weight: 900;
+    letter-spacing: 2px;
+    /* 3D Bubble / Sticker effect */
+    text-shadow: 
+        -4px -4px 0 #ff69b4,
+         4px -4px 0 #ff69b4,
+        -4px  4px 0 #ff69b4,
+         4px  4px 0 #ff69b4,
+         8px  8px 0 #ff1493, 
+        12px 12px 0 rgba(0,0,0,0.15);
 }
 
 .hero-content p {
